@@ -23,4 +23,4 @@ var Word=function (word){
     }
 }
 
-module.exports = word;
+module.exports = Word;

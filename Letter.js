@@ -1,4 +1,4 @@
-function Letter(char){
+var Letter = function (char){
     this.char=char;
     this.guessed=false;
 
@@ -13,7 +13,8 @@ function Letter(char){
        if(this.char===char){
            this.guessed=true;
        }
-
     }
-
 }
+
+
+module.exports = Letter;

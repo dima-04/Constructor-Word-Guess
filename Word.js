@@ -5,10 +5,10 @@ var Word=function (word){
         this.letters.push(new Letter(word[i]));
 
     }
-    var print = function(){
+    this.toString = function(){
         let str = "";
 
-        for(let i=0;i<this.letters.length;I++){
+        for(let i=0;i<this.letters.length;i++){
             
             str+=this.letters[i].print();
 
@@ -16,9 +16,9 @@ var Word=function (word){
         return str;
 
     }
-    var guess = function(char){
+    this.guess = function(char){
         for(let i=0;i<this.letters.length;i++){
-            this.letters[i].guess();
+            this.letters[i].guess(char);
         }
     }
 }

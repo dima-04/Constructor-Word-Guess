@@ -4,7 +4,7 @@ You have 10 time attempts, if you do not guess the word you will lose.
 ## How to install Constructor-Word-Guess:
 * Clone this repository.
 * Run npm install.
-* statrt the Game.
+* start the Game.
 * Enjoy!!.
 ## How to use Word-Guess:
 Guess a Letter:  
